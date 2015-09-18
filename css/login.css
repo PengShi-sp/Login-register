@@ -1,0 +1,62 @@
+body,div,p,input,h3{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+a{
+    text-decoration:none;
+}
+.login{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0 0 -200px;
+    z-index: 2;
+    /*border: 1px solid #666;*/
+}
+.login h3{
+    height: 47px;
+    line-height: 47px;
+    background-color: #f7f7f7;
+    text-indent: 15px;
+}
+.user{
+    margin: 50px 0 30px 0;
+    background: url("/images/input_icons.png") no-repeat;
+    background-position: 0 -61px;
+}
+.pass{
+    margin-bottom: 30px;
+    background: url("/images/input_icons.png") no-repeat;
+    background-position: 0 -140px;
+}
+.tp{
+    padding: 0 20px;
+}
+input{
+    width: 310px;
+    display: block;
+    height: 16px;
+    padding: 12px 10px 12px 38px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+input.btn{
+    width: 360px;
+    height: 48px;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #3f89ec;
+    cursor: pointer;
+}
+p{
+    padding: 0 20px;
+}
+p a{
+    float: right;
+}
